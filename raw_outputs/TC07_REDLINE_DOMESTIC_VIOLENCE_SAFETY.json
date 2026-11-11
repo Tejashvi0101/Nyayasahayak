@@ -54,9 +54,9 @@
     },
     "roi_comparison": [
       {
-        "option": "Step 1: Self-Sent Formal Legal Demand Notice + Evidence Trap",
+        "option": "Step 1: Amicable 48-Hr Without-Prejudice Settlement Offer",
         "estimated_cost_inr": "₹0 (Free via NyayaSahayak PDF) or ₹150 Registered Post AD",
-        "typical_timeline": "7 to 15 Days",
+        "typical_timeline": "2 to 7 Days",
         "success_probability": "55%–65% (Most landlords/employers/brands settle when hit with exact statutory citations)",
         "recommended": "YES — Always start here"
       },
@@ -132,7 +132,7 @@
     "case_validity_status": "RED_LINE_SAFETY",
     "validity_explanation": "[Physical Safety / Domestic Violence / Severe Harassment] Your physical safety comes first. Do not rely on automated legal notices alone. Contact the Women Helpline (181 / 1091), Police Emergency (112), or your District Legal Services Authority (NALSA Toll-Free: 15100) for immediate protection orders and a free human lawyer.",
     "amount_specified": true,
-    "strategy_profile_applied": "grounded-statute-engine-v1 (Balanced Legal Strategy)"
+    "strategy_profile_applied": "gemini-2.5-flash (Balanced Legal Strategy)"
   },
   "notice_and_clause_trap_decoder": {
     "has_verifiable_court_cnr_number": false,
@@ -155,11 +155,11 @@
   },
   "sparring_roleplay_evaluation": {
     "persona_name": "Aggressive Recovery Agent / Opponent Legal Counsel",
-    "opponent_reply": "Dekho, humare legal department ne draft ready rakha hai. Lekin agar aap CNR number aur NALSA helpline 15100 ki baat kar rahe ho, toh pehle mutually settle karne ka option dekh lete hain...",
+    "opponent_reply": "Theek hai, hum recovery agent calls band karwa rahe hain aur aapko official email par ledger statement bhej rahe hain.",
     "coach_score_100": 82,
-    "coach_critique": "Hold your ground! Private callers count on panic. Civil or loan disputes are not arrest offenses, and demanding money through criminal threats is punishable under BNS Section 351.",
+    "coach_critique": "Good de-escalation. Insist that all future communication happens strictly via official company email during RBI-permitted hours (8 AM – 7 PM).",
     "mistake_detected": "None — Clean, assertive legal positioning.",
-    "suggested_stronger_comeback": "Please share the 16-digit CNR number verifiable on ecourts.gov.in. Issuing arrest threats without lawful court process is criminal intimidation under BNS Section 351, which I am escalating to DLSA and police authorities."
+    "suggested_stronger_comeback": "WITHOUT PREJUDICE: Please route any legitimate statement of account strictly via official email. All unverified WhatsApp threats must cease immediately."
   },
   "adversarial_firewall_proof": null
 }
