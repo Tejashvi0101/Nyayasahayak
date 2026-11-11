@@ -1,0 +1,165 @@
+{
+  "test_case_id": "TC05_FAKE_WHATSAPP_WARRANT_BLUFF",
+  "test_case_title": "Hinglish: Recovery Agent Sending Fake 'Lok Adalat Arrest Warrant' on WhatsApp at 10:30 PM",
+  "raw_user_input": "Ek digital loan app ka recovery agent raat ko 10:30 baje call kar raha hai aur WhatsApp par ek laal stamp wala notice bheja hai jisme likha hai ki ₹35000 abhi pay nahi kiya toh kal subah Police aur CBI ghar aakar Lok Adalat Warrant par arrest kar legi aur mere phone contacts ko message bhejenge.",
+  "structured_case_analysis": {
+    "case_id": "TC05_FAKE_WHATSAPP_WARRANT_BLUFF",
+    "detected_language": "Hinglish (Conversational Hindi + English)",
+    "domain_key": "NOTICE_AND_CRIMINAL_TRIAGE",
+    "domain_title": "Intimidating Legal Notices, Criminal Threats & Red-Line Triage",
+    "is_red_line_escalation": false,
+    "red_line_reason": "",
+    "red_line_emergency_contacts": [
+      "NALSA Free Legal Aid Helpline: 15100 (24x7 Toll-Free across India)",
+      "District Legal Services Authority (DLSA) — Every District Court Complex",
+      "Emergency Police / Women Safety: 112 / 181 | Cybercrime Golden-Hour Freeze: 1930"
+    ],
+    "claim_amount_inr": 35000,
+    "timeline": [
+      {
+        "step_order": 1,
+        "date_or_marker": "Receipt of Notice / Threat",
+        "event_summary": "Received intimidating legal communication or criminal threat.",
+        "legal_significance": "Requires verification of whether it is a private lawyer's pre-litigation notice or a real Court Summons (CNR check)."
+      },
+      {
+        "step_order": 2,
+        "date_or_marker": "Statutory Verification",
+        "event_summary": "Cross-checked under Bharatiya Nyaya Sanhita (BNS), 2023 & CPC.",
+        "legal_significance": "Private individuals/lawyers cannot issue arrest warrants; only a Magistrate Court can."
+      }
+    ],
+    "evidence_score_100": 70,
+    "evidence_checklist": [
+      {
+        "item_name": "Copy of Notice / Threatening Messages",
+        "status": "PRESENT",
+        "weight_points": 50,
+        "how_to_obtain_or_create": "Preserve full envelope, header, advocate enrollment number, and WhatsApp phone numbers."
+      },
+      {
+        "item_name": "Underlying Transaction / Communication Proof",
+        "status": "RECOMMENDED",
+        "weight_points": 50,
+        "how_to_obtain_or_create": "Gather chronological proof refuting the allegations before sending a formal Reply Notice."
+      }
+    ],
+    "pre_notice_evidence_trap_tip": "Check if the document has a 16-digit alphanumeric 'CNR Number' verifiable on ecourts.gov.in. If it does NOT have a CNR number, it is NOT a court summons or warrant—it is either a private lawyer's notice or a recovery agent bluff!",
+    "plain_language_standing_en": "Effective July 1, 2024, the Bharatiya Nyaya Sanhita (BNS), 2023 replaced the old IPC (Cheating is now Section 318 BNS; Criminal Breach of Trust is Section 316 BNS; Criminal Intimidation is Section 351 BNS). Under Section 12 of the Legal Services Authorities Act, 1987, if this involves a real court proceeding or criminal threat, you can get a free government advocate via NALSA (Helpline 15100).",
+    "plain_language_standing_hi": "1 July 2024 se IPC ki jagah Bharatiya Nyaya Sanhita (BNS), 2023 laagu hai (Cheating = Section 318 BNS, Intimidation = Section 351 BNS). Asli court summons par hamesha 16-digit CNR number hota hai jise ecourts.gov.in par check kiya ja sakta hai. Muft sarkari vakil ke liye 15100 par call karein.",
+    "limitation_analysis": {
+      "statutory_limit_years": "3 Year(s)",
+      "legal_basis": "Depends on underlying claim; reply to a legal notice within the stipulated 7 or 15-day window to place clean denials on record.",
+      "official_portal": "https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number)"
+    },
+    "roi_comparison": [
+      {
+        "option": "Step 1: Self-Sent Formal Legal Demand Notice + Evidence Trap",
+        "estimated_cost_inr": "₹0 (Free via NyayaSahayak PDF) or ₹150 Registered Post AD",
+        "typical_timeline": "7 to 15 Days",
+        "success_probability": "55%–65% (Most landlords/employers/brands settle when hit with exact statutory citations)",
+        "recommended": "YES — Always start here"
+      },
+      {
+        "option": "Step 2: Government Online Portal (Pre-Litigation Reply Notice)",
+        "estimated_cost_inr": "₹0 Court/Portal Fee",
+        "typical_timeline": "30 to 90 Days",
+        "success_probability": "75%–85% (Backed by statutory conciliation/commission orders)",
+        "recommended": "YES — Escalate here if notice is ignored"
+      },
+      {
+        "option": "Step 3: Private Advocate & Contested Civil Court Litigation",
+        "estimated_cost_inr": "₹15,000 – ₹45,000+ (Lawyer retainers + court fees)",
+        "typical_timeline": "6 to 18 Months",
+        "success_probability": "High, but economically viable only if claim > ₹75,000 or in Red-Line criminal matters",
+        "recommended": "ONLY IF claim > ₹75,000 or Red-Line Trigger active"
+      }
+    ],
+    "verified_statutes": [
+      {
+        "id": "BNS_2023_S316_318_351",
+        "act": "Bharatiya Nyaya Sanhita (BNS), 2023",
+        "section": "Section 316 (Criminal Breach of Trust), Section 318 (Cheating) & Section 351 (Criminal Intimidation)",
+        "summary": "Effective July 1, 2024, BNS 2023 replaced the Indian Penal Code (IPC 1860). Section 316 replaces IPC 406, Section 318 replaces IPC 420, and Section 351 replaces IPC 503/506.",
+        "plain_hindi": "1 July 2024 se purani IPC ki jagah Bharatiya Nyaya Sanhita (BNS) laagu hai: Dhokhadhadi ab BNS Sec 318 (pehle IPC 420), Amanat mein Khayanat BNS Sec 316 (pehle IPC 406), aur Dhamki BNS Sec 351 (pehle IPC 506) hai."
+      },
+      {
+        "id": "LSAA_1987_S12",
+        "act": "Legal Services Authorities Act, 1987",
+        "section": "Section 12 (Entitlement to Free Legal Services)",
+        "summary": "Women, children, members of SC/ST, industrial workmen, victims of trafficking/disaster, and persons below the state income ceiling are legally entitled to a 100% free human lawyer through their District Legal Services Authority (DLSA).",
+        "plain_hindi": "Legal Services Authorities Act Sec 12 ke tahat mahilaon, mazdooron/workmen, SC/ST aur kam aamdani wale nagrikon ko DLSA aur NALSA Helpline 15100 se bilkul muft sarkari vakil milta hai."
+      }
+    ],
+    "citation_firewall_audit": [
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 318",
+        "resolved_citation": "Section 318",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 316",
+        "resolved_citation": "Section 316",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 351",
+        "resolved_citation": "Section 351",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 12",
+        "resolved_citation": "Section 12",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 318",
+        "resolved_citation": "Section 318",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 351",
+        "resolved_citation": "Section 351",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      }
+    ],
+    "case_validity_status": "ACTIONABLE_CLAIM",
+    "validity_explanation": "Valid, actionable legal claim under Indian statute.",
+    "amount_specified": true,
+    "strategy_profile_applied": "grounded-statute-engine-v1 (Balanced Legal Strategy)"
+  },
+  "notice_and_clause_trap_decoder": {
+    "has_verifiable_court_cnr_number": false,
+    "is_real_court_summons": false,
+    "summary_assessment": "Contains unenforceable intimidation bluffs / void clauses under Indian law.",
+    "decoded_flags": [
+      {
+        "clause_or_threat_type": "Fake Recovery / Advocate 'Arrest Warrant, Passport Seizure & Bank Freeze' Bluff",
+        "verdict": "ILLEGAL_BLUFF_OR_VOID",
+        "statutory_reality": "Private advocates, landlords, and recovery agents CANNOT issue arrest warrants, freeze bank accounts, or seize passports. Civil debt recovery is not an arrest offense, Lok Adalats NEVER issue warrants, and genuine court summons always carry a 16-digit CNR number verifiable on ecourts.gov.in.",
+        "recommended_counter_move": "Do not panic or pay under threat. Screenshot the message, verify absence of a 16-digit CNR number on ecourts.gov.in, and report criminal intimidation under BNS Section 351 and RBI Ombudsman (cms.rbi.org.in)."
+      }
+    ]
+  },
+  "generated_action_kit": {
+    "whatsapp_escalation_template": "WITHOUT PREJUDICE\n\nDear Opposite Party / Respondent,\n\nThis is a final written reminder regarding the pending sum of ₹35,000 (Intimidating Legal Notices, Criminal Threats & Red-Line Triage). All my obligations stand completed, and holding back ₹35,000 is directly contrary to Bharatiya Nyaya Sanhita (BNS), 2023 (Section 316 (Criminal Breach of Trust), Section 318 (Cheating) & Section 351 (Criminal Intimidation)).\n\nPlease process the full transfer of ₹35,000 within 48 hours and share the UTR reference, failing which I will be constrained to serve a formal Legal Notice and initiate recovery proceedings before the https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number) along with statutory interest and costs.\n\nRegards,\nAarav Verma (Test Claimant)",
+    "formal_legal_notice_md": "# REGISTERED A.D. / EMAIL — LEGAL DEMAND NOTICE\n**WITHOUT PREJUDICE**  \n**Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n\n**Date:** 11 November 2026  \n**From:** Aarav Verma (Test Claimant), residing at Flat 402, Indiranagar, Bengaluru - 560038  \n**To:** Opposite Party / Respondent, having address at Registered Address of Opposite Party  \n\n**SUBJECT: FINAL PRE-LITIGATION LEGAL NOTICE FOR RECOVERY OF ₹35,000 AND STATUTORY COMPLIANCE (INTIMIDATING LEGAL NOTICES, CRIMINAL THREATS & RED-LINE TRIAGE)**\n\nSir / Madam,\n\nUnder instructions from and on behalf of my self-represented claim, I hereby serve upon you the following categorical Legal Demand Notice:\n\n### 1. CHRONOLOGICAL STATEMENT OF FACTS\n1. Received intimidating legal communication or criminal threat. (*Requires verification of whether it is a private lawyer's pre-litigation notice or a real Court Summons (CNR check).*)\n2. Cross-checked under Bharatiya Nyaya Sanhita (BNS), 2023 & CPC. (*Private individuals/lawyers cannot issue arrest warrants; only a Magistrate Court can.*)\n3. Despite repeated reminders, the lawful dues remain unpaid.\n\n### 2. APPLICABLE STATUTORY PROVISIONS (VERIFIED INDIAN LAW)\nYour continued failure and refusal to discharge the lawful liability of **₹35,000** is in direct breach of the following statutory provisions:\n- **Bharatiya Nyaya Sanhita (BNS), 2023 (Section 316 (Criminal Breach of Trust), Section 318 (Cheating) & Section 351 (Criminal Intimidation)):** Effective July 1, 2024, BNS 2023 replaced the Indian Penal Code (IPC 1860). Section 316 replaces IPC 406, Section 318 replaces IPC 420, and Section 351 replaces IPC 503/506.\n- **Legal Services Authorities Act, 1987 (Section 12 (Entitlement to Free Legal Services)):** Women, children, members of SC/ST, industrial workmen, victims of trafficking/disaster, and persons below the state income ceiling are legally entitled to a 100% free human lawyer through their District Legal Services Authority (DLSA).\n\n### 3. FINAL DEMAND & CONSEQUENCE OF NON-COMPLIANCE\nI hereby call upon you to:\n1. Remit the principal sum of **₹35,000** (Rupees 35,000 only) along with accrued interest @ 18% per annum immediately via NEFT/IMPS/UPI; and\n2. Issue written confirmation of compliance within **7 (seven) days** from the receipt of this Notice.\n\nTake notice that should you fail to comply within the stipulated **7 (seven) days**, I shall immediately file a formal recovery petition before **https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number)** entirely at your risk as to costs, statutory interest, and damages.\n\nA copy of this Notice is retained in my records for production before the competent Court/Authority as Annexures.\n\nYours faithfully,\n\n**Aarav Verma (Test Claimant)**  \n*(Claimant)*\n",
+    "portal_complaint_synopsis_md": "# OFFICIAL PORTAL FILING PACKET (https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number))\n\n- **Portal to Open:** https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number)\n- **Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n- **Limitation Status:** WITHIN TIME (3 Year(s) — Depends on underlying claim; reply to a legal notice within the stipulated 7 or 15-day window to place clean denials on record.)\n- **Claim Amount:** ₹35,000\n- **Evidence Readiness Score:** 70/100\n\n### Synopsis of Case (Copy-Paste into Portal 'Brief Facts' Box)\nEffective July 1, 2024, the Bharatiya Nyaya Sanhita (BNS), 2023 replaced the old IPC (Cheating is now Section 318 BNS; Criminal Breach of Trust is Section 316 BNS; Criminal Intimidation is Section 351 BNS). Under Section 12 of the Legal Services Authorities Act, 1987, if this involves a real court proceeding or criminal threat, you can get a free government advocate via NALSA (Helpline 15100).\n\n### List of Annexures to Upload (PDF)\n- **Annexure A1:** Copy of Notice / Threatening Messages (*Status: PRESENT*)\n- **Annexure A2:** Underlying Transaction / Communication Proof (*Status: RECOMMENDED*)",
+    "pdf_path": "D:\\projects\\KukuFM\\project2_ai_lawyer\\raw_outputs\\generated_legal_notices_pdf\\TC05_FAKE_WHATSAPP_WARRANT_BLUFF_Legal_Notice.pdf"
+  },
+  "sparring_roleplay_evaluation": {
+    "persona_name": "Aggressive Recovery Agent / Opponent Legal Counsel",
+    "opponent_reply": "Kya bol rahe ho? Agar aapke paas koi thos kanooni jawab ya saboot nahi hai, toh humari baat yahin khatam hoti hai!",
+    "coach_score_100": 18,
+    "coach_critique": "Your message was too short or unclear to establish legal leverage. Always state (1) the exact date/fact, (2) the Indian Act/Section violated, and (3) a clear deadline.",
+    "mistake_detected": "⚠️ UNCLEAR / NON-SUBSTANTIVE REPLY: Sending one-word or garbled replies signals weakness to the opposite party.",
+    "suggested_stronger_comeback": "WITHOUT PREJUDICE: Please place your refusal in writing. My claim is backed by documentary receipts and statutory provisions, and I require a written resolution within 48 hours."
+  },
+  "adversarial_firewall_proof": null
+}

@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "version": "2026.1",
+    "jurisdiction": "Republic of India",
+    "criminal_code_regime": "Bharatiya Nyaya Sanhita (BNS), 2023 (Effective July 1, 2024 — supersedes IPC 1860)",
+    "purpose": "Deterministic statutory whitelist to eliminate hallucinated acts, sections, and fake case citations."
+  },
+  "domains": {
+    "TENANCY_DEPOSIT": {
+      "title": "Rental Security Deposit Recovery & Unlawful Landlord Deductions",
+      "limitation_years": 3,
+      "limitation_basis": "Article 24 / Article 113, Schedule to the Limitation Act, 1963 (3 years from the date the deposit became refundable upon vacating).",
+      "primary_forum": "Rent Authority / Civil Court (Order XXXVII CPC Summary Suit) / Permanent Lok Adalat",
+      "official_portal": "nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services",
+      "verified_statutes": [
+        {
+          "id": "TPA_1882_S108Q",
+          "act": "Transfer of Property Act, 1882",
+          "section": "Section 108(q)",
+          "summary": "Upon determination of the lease and handover of vacant possession by the lessee, the contractual relationship terminates and the lessor has no legal right to retain refundable security money without proven arrears.",
+          "plain_hindi": "Kirayedaar dwara makan khali karke chabi सौंपने (handover) ke baad maalik bina kisi pakke saboot ke security deposit rok nahi sakta."
+        },
+        {
+          "id": "TPA_1882_S106",
+          "act": "Transfer of Property Act, 1882",
+          "section": "Section 106",
+          "summary": "In the absence of a written contract to the contrary, a residential lease from month to month is terminable by 15 days' written notice.",
+          "plain_hindi": "Agar agreement mein alag se notice period nahi likha hai, toh 15 din ka likhit notice kafi hota hai."
+        },
+        {
+          "id": "MTA_2021_S11",
+          "act": "Model Tenancy Act, 2021 (and State Tenancy Acts)",
+          "section": "Section 11(1) & Section 11(2)",
+          "summary": "Security deposit for residential premises is capped at two months' rent and must be refunded to the tenant on the date of taking over vacant possession, after making due deduction only for verifiable arrears.",
+          "plain_hindi": "Model Tenancy Act ke tahat security deposit chabi wapas karte waqt hi lautana zaroori hai (sirf asli bakaya kaat kar)."
+        },
+        {
+          "id": "ICA_1872_S73_74",
+          "act": "Indian Contract Act, 1872",
+          "section": "Section 73 & Section 74",
+          "summary": "A party claiming breach or damage can only recover reasonable compensation for actual, proven loss—not arbitrary lump-sum deductions for routine 'normal wear and tear' or unbilled repainting.",
+          "plain_hindi": "Normal wear-and-tear ya bina pakke bill ke manmaane 'damage charges' kaatna Indian Contract Act Sec 73-74 ke khilaf hai."
+        },
+        {
+          "id": "CPC_1908_O37",
+          "act": "Code of Civil Procedure, 1908 (CPC)",
+          "section": "Order XXXVII (Summary Suits) & Section 34",
+          "summary": "Enables fast-track summary recovery of a liquidated debt (such as a written security deposit receipt) where the defendant landlord cannot even defend without special leave of the Court, plus pendente lite and future interest under Section 34.",
+          "plain_hindi": "Written agreement aur bank transfer receipt hone par CPC Order 37 mein fast-track Summary Suit dakhil ho sakta hai, jisme 12-18% byaaj (interest) bhi maanga ja sakta hai."
+        }
+      ]
+    },
+    "UNPAID_SALARY": {
+      "title": "Unpaid Salary, Delayed Full & Final (F&F) Settlement & Withheld Relieving Letter",
+      "limitation_years": 3,
+      "limitation_basis": "Article 7, Schedule to the Limitation Act, 1963 (3 years for civil recovery of wages/salary; 12 months extendable under Payment of Wages Act Sec 15).",
+      "primary_forum": "Ministry of Labour SAMADHAN Portal / State Labour Commissioner (Shops & Establishments Inspector) / Civil Summary Suit",
+      "official_portal": "https://samadhan.labour.gov.in (SAMADHAN — Software Application for Monitoring and Disposal, Handling of Industrial Disputes)",
+      "verified_statutes": [
+        {
+          "id": "PWA_1936_S3_S5_S15",
+          "act": "Payment of Wages Act, 1936",
+          "section": "Section 3, Section 5 & Section 15",
+          "summary": "Mandates strict timelines for payment of earned wages upon work completion or termination, and empowers the Authority under Section 15(3) to direct refund of unlawful deductions along with compensation.",
+          "plain_hindi": "Kaam kiye gaye mahine ki tankhwah (salary) rokna kanoonan galat hai; Sec 15 ke tahat Labour Authority harjaana bhi laga sakti hai."
+        },
+        {
+          "id": "IDA_1947_S33C2",
+          "act": "Industrial Disputes Act, 1947",
+          "section": "Section 2(s), Section 25F & Section 33C(2)",
+          "summary": "Any workman (non-managerial employee) entitled to money or benefit capable of being computed in terms of money from the employer may apply to the Labour Court for recovery.",
+          "plain_hindi": "Non-managerial employees apni baki salary aur dues ke liye seedhe SAMADHAN portal aur Labour Commissioner ke paas muft shikayat kar sakte hain."
+        },
+        {
+          "id": "ICA_1872_S27",
+          "act": "Indian Contract Act, 1872",
+          "section": "Section 27",
+          "summary": "Every agreement by which anyone is restrained from exercising a lawful profession, trade or business of any kind is to that extent void. Post-termination non-compete threats blocking an employee from joining another company are legally unenforceable.",
+          "plain_hindi": "Naukri chhodne ke baad dusri company join karne se rokne wali 'Non-Compete' shart India mein Section 27 ke tahat bilkul shoonya (void) hai."
+        },
+        {
+          "id": "ICA_1872_S74_BOND",
+          "act": "Indian Contract Act, 1872",
+          "section": "Section 74 (Employment Bond Penalty Limit)",
+          "summary": "Employers cannot enforce extortionate 'employment bond' penalties or hold relieving/experience letters hostage unless they prove actual, itemized financial expenditure spent on specialized external training.",
+          "plain_hindi": "Company bina asli training kharch ka saboot diye 1-2 lakh ka 'Bond Penalty' nahi vasool sakti aur na hi Relieving Letter rok sakti hai."
+        },
+        {
+          "id": "SEA_STATE",
+          "act": "State Shops and Commercial Establishments Act",
+          "section": "Provisions on Notice Pay & Final Settlement",
+          "summary": "Covers white-collar IT, startup, and office employees; empowers the local Labour Officer / Inspector to summon employers withholding earned salary, leave encashment, or service certificates.",
+          "plain_hindi": "IT aur private office employees bhi State Shops & Establishments Act ke tahat Labour Inspector ko shikayat de sakte hain."
+        }
+      ]
+    },
+    "CONSUMER_REFUND": {
+      "title": "E-Commerce Refund Refusal, Defective Product, Service Deficiency & Dark Patterns",
+      "limitation_years": 2,
+      "limitation_basis": "Section 69(1), Consumer Protection Act, 2019 (2 years from the date on which the cause of action arose).",
+      "primary_forum": "National Consumer Helpline (1915) -> District Consumer Disputes Redressal Commission via e-Daakhil",
+      "official_portal": "https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim)",
+      "verified_statutes": [
+        {
+          "id": "CPA_2019_S2_11_47",
+          "act": "Consumer Protection Act, 2019",
+          "section": "Section 2(9), Section 2(11) & Section 2(47)(vii)",
+          "summary": "Defines 'Deficiency' in service and explicitly classifies refusing to take back defective goods or failing to refund the consideration paid within the stipulated period as an actionable 'Unfair Trade Practice'.",
+          "plain_hindi": "Kharab saman wapas na lena ya samay par refund na dena Consumer Protection Act Sec 2(47) ke tahat 'Unfair Trade Practice' hai."
+        },
+        {
+          "id": "CPA_2019_S35",
+          "act": "Consumer Protection Act, 2019",
+          "section": "Section 35 & Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020",
+          "summary": "Consumers can file complaints electronically via e-Daakhil in the District Commission where they reside or work for gain, with ZERO court fee for claims up to ₹5,00,000.",
+          "plain_hindi": "Aap apne hi shahar ke District Consumer Commission mein ghar baithe e-Daakhil se bina vakil aur ₹0 court fee (5 lakh tak ke claim par) case file kar sakte hain."
+        },
+        {
+          "id": "ECOM_RULES_2020_R4_5",
+          "act": "Consumer Protection (E-Commerce) Rules, 2020",
+          "section": "Rule 4(4), Rule 4(5) & Rule 5",
+          "summary": "Every e-commerce entity must display a Grievance Officer, acknowledge any consumer complaint with a ticket number within 48 hours, and resolve it within 1 month from the date of receipt.",
+          "plain_hindi": "Har online shopping app/website ke Grievance Officer ko 48 ghante mein complaint number dena aur 30 din mein samadhan karna kanoonan laazmi hai."
+        },
+        {
+          "id": "DARK_PATTERNS_2023",
+          "act": "CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023",
+          "section": "Section 4 & Annexure I (Specified Dark Patterns)",
+          "summary": "Prohibits 'Basket Sneaking', 'Forced Action', 'Subscription Traps', and hidden 'Drip Pricing' charges added at checkout.",
+          "plain_hindi": "Checkout par chhupke se extra charge jodna ya subscription cancel na karne dena CCPA Dark Patterns Guidelines 2023 ke tahat illegal hai."
+        }
+      ]
+    },
+    "UPI_BANKING_FRAUD": {
+      "title": "Unauthorized UPI / Bank Debit, Failed Transaction Hold & Digital Lending Harassment",
+      "limitation_years": 1,
+      "limitation_basis": "Report unauthorized transaction within 3 working days for Zero Liability under RBI Circular; file with RBI Ombudsman within 1 year after 30-day bank grievance window.",
+      "primary_forum": "1930 National Cybercrime Helpline -> Bank Nodal Officer -> RBI Integrated Ombudsman (cms.rbi.org.in)",
+      "official_portal": "https://cybercrime.gov.in (Call 1930 immediately) & https://cms.rbi.org.in (RBI Complaint Management System)",
+      "verified_statutes": [
+        {
+          "id": "RBI_ZERO_LIABILITY_2017",
+          "act": "RBI Master Circular on Customer Protection — Limiting Liability in Unauthorised Electronic Banking Transactions",
+          "section": "Paragraphs 6, 7 & 9 (Ref: DBR.No.Leg.BC.78/09.07.005/2017-18)",
+          "summary": "Customer has ZERO liability where unauthorized transaction occurs due to contributory fraud/negligence or third-party breach if notified within 3 working days. Bank must credit shadow reversal within 10 working days.",
+          "plain_hindi": "Agar bina aapki galti ke bank/UPI se paisa kata hai aur aap 3 working days mein bank ko report kar dete hain, toh RBI niyam ke mutabik aapki Zero Liability hai aur bank ko 10 din mein shadow refund dena hoga."
+        },
+        {
+          "id": "RBI_TAT_2019",
+          "act": "RBI Harmonisation of Turn Around Time (TAT) and Customer Compensation for Failed Transactions",
+          "section": "Circular DPSS.CO.PD No.629/02.01.014/2019-20",
+          "summary": "If a UPI transaction fails and money is debited from the sender's account, the bank must auto-reverse it within T+1 day (or T+5 for merchant transactions), failing which the bank must pay ₹100 per day automatic penalty to the customer.",
+          "plain_hindi": "Failed UPI transaction ka paisa T+1 se T+5 din mein wapas na aane par bank ko customer ko ₹100 prati din ka automatic muavza (penalty) dena padta hai."
+        },
+        {
+          "id": "RBIOS_2021",
+          "act": "Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS)",
+          "section": "Clause 10 & Clause 15",
+          "summary": "If a bank or payment app fails to resolve a written complaint within 30 days (or rejects it unfairly), the customer can file a free complaint on cms.rbi.org.in for an award up to ₹20 Lakh plus ₹1 Lakh for mental agony.",
+          "plain_hindi": "Bank dwara 30 din mein sunvayi na karne par aap cms.rbi.org.in par muft RBI Ombudsman complaint kar sakte hain."
+        },
+        {
+          "id": "RBI_DIGITAL_LENDING_2022",
+          "act": "RBI Guidelines on Digital Lending, 2022",
+          "section": "Paragraph 6 & Recovery Agent Fair Practices Code",
+          "summary": "Digital lending apps cannot access mobile phone contacts, call logs, or photo galleries, and recovery agents are strictly prohibited from calling before 8:00 AM or after 7:00 PM or harassing family/contacts.",
+          "plain_hindi": "Loan app wale aapke phone contacts/photos access nahi kar sakte aur subah 8 baje se pehle ya shaam 7 baje ke baad call karke dhamka nahi sakte."
+        }
+      ]
+    },
+    "NOTICE_AND_CRIMINAL_TRIAGE": {
+      "title": "Intimidating Legal Notices, Criminal Threats & Red-Line Triage",
+      "limitation_years": 3,
+      "limitation_basis": "Depends on underlying claim; reply to a legal notice within the stipulated 7 or 15-day window to place clean denials on record.",
+      "primary_forum": "Pre-Litigation Reply Notice / District Legal Services Authority (DLSA Free Advocate — Helpline 15100)",
+      "official_portal": "https://nalsa.gov.in (NALSA Toll-Free Legal Aid Helpline: 15100) & https://ecourts.gov.in (Verify Real Court Summons via CNR Number)",
+      "verified_statutes": [
+        {
+          "id": "BNS_2023_S316_318_351",
+          "act": "Bharatiya Nyaya Sanhita (BNS), 2023",
+          "section": "Section 316 (Criminal Breach of Trust), Section 318 (Cheating) & Section 351 (Criminal Intimidation)",
+          "summary": "Effective July 1, 2024, BNS 2023 replaced the Indian Penal Code (IPC 1860). Section 316 replaces IPC 406, Section 318 replaces IPC 420, and Section 351 replaces IPC 503/506.",
+          "plain_hindi": "1 July 2024 se purani IPC ki jagah Bharatiya Nyaya Sanhita (BNS) laagu hai: Dhokhadhadi ab BNS Sec 318 (pehle IPC 420), Amanat mein Khayanat BNS Sec 316 (pehle IPC 406), aur Dhamki BNS Sec 351 (pehle IPC 506) hai."
+        },
+        {
+          "id": "LSAA_1987_S12",
+          "act": "Legal Services Authorities Act, 1987",
+          "section": "Section 12 (Entitlement to Free Legal Services)",
+          "summary": "Women, children, members of SC/ST, industrial workmen, victims of trafficking/disaster, and persons below the state income ceiling are legally entitled to a 100% free human lawyer through their District Legal Services Authority (DLSA).",
+          "plain_hindi": "Legal Services Authorities Act Sec 12 ke tahat mahilaon, mazdooron/workmen, SC/ST aur kam aamdani wale nagrikon ko DLSA aur NALSA Helpline 15100 se bilkul muft sarkari vakil milta hai."
+        }
+      ]
+    },
+    "CHEQUE_BOUNCE_RECOVERY": {
+      "title": "Dishonour of Cheque (Cheque Bounce) & Commercial Recovery",
+      "limitation_years": 3,
+      "limitation_basis": "Section 138(b)-(c) & Section 142, Negotiable Instruments Act, 1881 (Statutory Demand Notice must be sent within 30 days of Bank Return Memo; 15 days to pay; complaint within 30 days thereafter; 3 years for Civil Order XXXVII Suit).",
+      "primary_forum": "Judicial Magistrate First Class (JMFC — Sec 138 NI Act) / Civil Court (Order XXXVII CPC Summary Suit)",
+      "official_portal": "https://ecourts.gov.in (e-Filing 3.0 — Digital NI Act Section 138 Complaint) & https://nalsa.gov.in",
+      "verified_statutes": [
+        {
+          "id": "NIA_1881_S138",
+          "act": "Negotiable Instruments Act, 1881",
+          "section": "Section 138 & Section 142",
+          "summary": "Dishonour of a cheque issued for discharge of a legally enforceable debt is a criminal offense punishable with imprisonment up to 2 years or fine up to twice the cheque amount, provided a written Demand Notice is served within 30 days of receiving the Bank Return Memo and the drawer fails to pay within 15 days.",
+          "plain_hindi": "Cheque bounce hone par Bank Return Memo milne ke 30 din ke andar likhit Legal Notice bhejna laazmi hai; 15 din mein bhugtan na hone par Section 138 NI Act mein cheque ki dugni rashi tak ka jurmana aur 2 saal tak ki saza ka pravdhan hai."
+        },
+        {
+          "id": "CPC_1908_O37_CHEQUE",
+          "act": "Code of Civil Procedure, 1908 (CPC)",
+          "section": "Order XXXVII (Summary Suit on Bills of Exchange / Cheques) & Section 34",
+          "summary": "Even if the 30-day criminal notice window under Section 138 NI Act was missed, a dishonoured cheque or written promissory note remains recoverable for 3 years via a fast-track Summary Suit under Order XXXVII CPC with statutory interest.",
+          "plain_hindi": "Agar 30 din ki Section 138 notice deadline nikal bhi gayi ho, tab bhi 3 saal ke andar CPC Order 37 mein fast-track civil recovery case dakhil karke mool rashi aur byaaj vasoola ja sakta hai."
+        }
+      ]
+    },
+    "NO_LEGAL_CLAIM_OR_NON_JUSTICIABLE": {
+      "title": "Non-Actionable Grievance, Customer-Induced Fault, or Time-Barred Claim",
+      "limitation_years": 0,
+      "limitation_basis": "Section 3 & Section 18, Limitation Act, 1963 (Mandatory dismissal of time-barred suits) & Section 33, Bharatiya Nyaya Sanhita (BNS), 2023 (De minimis non curat lex — Act causing slight harm).",
+      "primary_forum": "Internal Goodwill Mediation / Non-Justiciable (Court Filing Not Recommended)",
+      "official_portal": "https://consumerhelpline.gov.in (Informal Conciliation Only — Formal Litigation Discouraged)",
+      "verified_statutes": [
+        {
+          "id": "BNS_2023_S33",
+          "act": "Bharatiya Nyaya Sanhita (BNS), 2023",
+          "section": "Section 33 (Act Causing Slight Harm — Formerly IPC Section 95)",
+          "summary": "Nothing is an offence by reason that it causes, or that it is intended to cause, or that it is known to be likely to cause, any harm, if that harm is so slight that no person of ordinary sense and temper would complain of such harm (De minimis non curat lex).",
+          "plain_hindi": "BNS Section 33 (De minimis non curat lex) ke mutabik mamooli samajik man-mutav, dosti-yaari ki narazgi ya chhoti-moti baaton par kanooni mukadma nahi banta."
+        },
+        {
+          "id": "LIM_1963_S3_S18",
+          "act": "Limitation Act, 1963 & Consumer Protection Act, 2019",
+          "section": "Section 3, Section 18 (Limitation Act) & Section 69 (CPA 2019)",
+          "summary": "Under Section 3 of the Limitation Act, 1963, every suit instituted after the prescribed period of limitation (3 years for civil recovery; 2 years for consumer complaints under Section 69 CPA) shall be dismissed even if limitation has not been set up as a defence, unless fresh written acknowledgment was signed before expiry under Section 18.",
+          "plain_hindi": "Limitation Act Section 3 ke tahat samay-seema (Civil recovery ke liye 3 saal, Consumer case ke liye 2 saal) beet jaane ke baad dakhil kiya gaya case bina sunvayi ke kharij (dismiss) ho jata hai."
+        },
+        {
+          "id": "CPA_2019_S2_11_EXCLUSION",
+          "act": "Consumer Protection Act, 2019 & Indian Contract Act, 1872",
+          "section": "Section 2(11) CPA 2019 & Section 73 ICA 1872 (No Statutory Deficiency on Self-Inflicted Damage)",
+          "summary": "Where physical damage to goods occurs after delivery due to the consumer's own accidental drop, liquid spill, unauthorized modification, or post-return-window buyer's remorse without any manufacturing defect, there is no actionable 'Deficiency' or 'Unfair Trade Practice' by the seller.",
+          "plain_hindi": "Agar saman delivery ke baad grahak ke khud ke haath se girkar toota hai, paani gira hai, ya bina kisi kharabi ke return window ke baad mann badla hai, toh kanoonan seller par refund ka daava nahi banta."
+        }
+      ]
+    }
+  },
+  "legacy_ipc_to_bns_map": {
+    "415": "BNS Section 318(1) (Cheating definition — formerly IPC Section 415 prior to July 1, 2024)",
+    "419": "BNS Section 319(2) (Cheating by personation — formerly IPC Section 419 prior to July 1, 2024)",
+    "420": "BNS Section 318 (Cheating — formerly IPC Section 420 prior to July 1, 2024)",
+    "406": "BNS Section 316 (Criminal Breach of Trust — formerly IPC Section 406 prior to July 1, 2024)",
+    "465": "BNS Section 336(2) (Punishment for Forgery — formerly IPC Section 465 prior to July 1, 2024)",
+    "468": "BNS Section 336(3) (Forgery for purpose of cheating — formerly IPC Section 468 prior to July 1, 2024)",
+    "503": "BNS Section 351 (Criminal Intimidation — formerly IPC Section 503 prior to July 1, 2024)",
+    "506": "BNS Section 351(2)/(3) (Punishment for Criminal Intimidation — formerly IPC Section 506 prior to July 1, 2024)",
+    "499": "BNS Section 356 (Defamation — formerly IPC Section 499 prior to July 1, 2024)",
+    "500": "BNS Section 356(2) (Punishment for Defamation — formerly IPC Section 500 prior to July 1, 2024)",
+    "383": "BNS Section 308 (Extortion — formerly IPC Section 383 prior to July 1, 2024)",
+    "384": "BNS Section 308(2) (Punishment for Extortion — formerly IPC Section 384 prior to July 1, 2024)"
+  }
+}

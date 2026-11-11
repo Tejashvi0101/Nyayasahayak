@@ -1,0 +1,185 @@
+{
+  "test_case_id": "TC03_HINDI_ECOMMERCE_DEFECTIVE_REFUND",
+  "test_case_title": "Hindi (Devanagari): E-Commerce Refusal to Refund ₹62,000 Defective Laptop",
+  "raw_user_input": "मैंने ऑनलाइन शॉपिंग ऐप से ₹62000 का नया लैपटॉप खरीदा था। डिलीवरी के दिन ही अनबॉक्सिंग वीडियो में दिखा कि स्क्रीन टूटी हुई है और मदरबोर्ड काम नहीं कर रहा। कस्टमर केयर ने 20 दिन तक टिकट घुमाया और अब कहते हैं कि हमारी 'नो रिफंड पॉलिसी' है, पैसे वापस नहीं मिलेंगे।",
+  "structured_case_analysis": {
+    "case_id": "TC03_HINDI_ECOMMERCE_DEFECTIVE_REFUND",
+    "detected_language": "Hindi (Devanagari)",
+    "domain_key": "CONSUMER_REFUND",
+    "domain_title": "E-Commerce Refund Refusal, Defective Product, Service Deficiency & Dark Patterns",
+    "is_red_line_escalation": false,
+    "red_line_reason": "",
+    "red_line_emergency_contacts": [
+      "NALSA Free Legal Aid Helpline: 15100 (24x7 Toll-Free across India)",
+      "District Legal Services Authority (DLSA) — Every District Court Complex",
+      "Emergency Police / Women Safety: 112 / 181 | Cybercrime Golden-Hour Freeze: 1930"
+    ],
+    "claim_amount_inr": 62000,
+    "timeline": [
+      {
+        "step_order": 1,
+        "date_or_marker": "Purchase & Consideration Paid",
+        "event_summary": "Paid ₹62,000 for product/service via digital invoice.",
+        "legal_significance": "Establishes Consumer status under Section 2(7) of the Consumer Protection Act, 2019."
+      },
+      {
+        "step_order": 2,
+        "date_or_marker": "Defect / Deficiency Discovered",
+        "event_summary": "Received defective/wrong item or deficient service; raised return/refund request.",
+        "legal_significance": "Triggers E-Commerce Rules 2020 Rule 4 (48-hour acknowledgment & 30-day resolution mandate)."
+      },
+      {
+        "step_order": 3,
+        "date_or_marker": "Unfair Refusal to Refund",
+        "event_summary": "Platform/seller closed ticket or refused refund despite proof.",
+        "legal_significance": "Constitutes 'Deficiency' under Section 2(11) and 'Unfair Trade Practice' under Section 2(47)(vii) of CPA 2019."
+      }
+    ],
+    "evidence_score_100": 82,
+    "evidence_checklist": [
+      {
+        "item_name": "Tax Invoice / Order Confirmation & Payment Proof",
+        "status": "PRESENT",
+        "weight_points": 35,
+        "how_to_obtain_or_create": "Download PDF invoice and UPI/Card statement."
+      },
+      {
+        "item_name": "Unboxing Video / Photos of Defect",
+        "status": "RECOMMENDED",
+        "weight_points": 30,
+        "how_to_obtain_or_create": "Take clear timestamped photos/video of the product serial number, packaging, and defect."
+      },
+      {
+        "item_name": "Customer Support Ticket IDs & Chat Screenshots",
+        "status": "PRESENT",
+        "weight_points": 35,
+        "how_to_obtain_or_create": "Save ticket numbers showing the company failed to resolve within 30 days under E-Commerce Rules 2020."
+      }
+    ],
+    "pre_notice_evidence_trap_tip": "Send one email to the company's statutory 'Grievance Officer' (mandatory on their website under Rule 4 of the E-Commerce Rules, 2020) with subject: 'Notice under Rule 4(4) Consumer Protection (E-Commerce) Rules 2020 prior to e-Daakhil Filing'. Half of e-commerce escalations settle within 72 hours of citing Rule 4(4).",
+    "plain_language_standing_en": "Refusing to refund ₹62,000 for a defective product or undelivered service is an explicit 'Unfair Trade Practice' under Section 2(47)(vii) and 'Deficiency' under Section 2(11) of the Consumer Protection Act, 2019. Under Section 35, you can file online via e-Daakhil from home with ₹0 court fee (since your claim is under ₹5 Lakh).",
+    "plain_language_standing_hi": "Kharab saman ya service par ₹62,000 ka refund na dena Consumer Protection Act 2019 ke Section 2(11) aur Section 2(47)(vii) ke tahat dandaatmak 'Unfair Trade Practice' hai. 5 Lakh tak ke claim par e-Daakhil portal par ₹0 court fee lagti hai.",
+    "limitation_analysis": {
+      "statutory_limit_years": "2 Year(s)",
+      "legal_basis": "Section 69(1), Consumer Protection Act, 2019 (2 years from the date on which the cause of action arose).",
+      "official_portal": "https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim)"
+    },
+    "roi_comparison": [
+      {
+        "option": "Step 1: Self-Sent Formal Legal Demand Notice + Evidence Trap",
+        "estimated_cost_inr": "₹0 (Free via NyayaSahayak PDF) or ₹150 Registered Post AD",
+        "typical_timeline": "7 to 15 Days",
+        "success_probability": "55%–65% (Most landlords/employers/brands settle when hit with exact statutory citations)",
+        "recommended": "YES — Always start here"
+      },
+      {
+        "option": "Step 2: Government Online Portal (National Consumer Helpline (1915) -> District Consumer Disputes Redressal Commission via e-Daakhil)",
+        "estimated_cost_inr": "₹0 Court/Portal Fee",
+        "typical_timeline": "30 to 90 Days",
+        "success_probability": "75%–85% (Backed by statutory conciliation/commission orders)",
+        "recommended": "YES — Escalate here if notice is ignored"
+      },
+      {
+        "option": "Step 3: Private Advocate & Contested Civil Court Litigation",
+        "estimated_cost_inr": "₹15,000 – ₹45,000+ (Lawyer retainers + court fees)",
+        "typical_timeline": "6 to 18 Months",
+        "success_probability": "High, but economically viable only if claim > ₹75,000 or in Red-Line criminal matters",
+        "recommended": "ONLY IF claim > ₹75,000 or Red-Line Trigger active"
+      }
+    ],
+    "verified_statutes": [
+      {
+        "id": "CPA_2019_S2_11_47",
+        "act": "Consumer Protection Act, 2019",
+        "section": "Section 2(9), Section 2(11) & Section 2(47)(vii)",
+        "summary": "Defines 'Deficiency' in service and explicitly classifies refusing to take back defective goods or failing to refund the consideration paid within the stipulated period as an actionable 'Unfair Trade Practice'.",
+        "plain_hindi": "Kharab saman wapas na lena ya samay par refund na dena Consumer Protection Act Sec 2(47) ke tahat 'Unfair Trade Practice' hai."
+      },
+      {
+        "id": "CPA_2019_S35",
+        "act": "Consumer Protection Act, 2019",
+        "section": "Section 35 & Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020",
+        "summary": "Consumers can file complaints electronically via e-Daakhil in the District Commission where they reside or work for gain, with ZERO court fee for claims up to ₹5,00,000.",
+        "plain_hindi": "Aap apne hi shahar ke District Consumer Commission mein ghar baithe e-Daakhil se bina vakil aur ₹0 court fee (5 lakh tak ke claim par) case file kar sakte hain."
+      },
+      {
+        "id": "ECOM_RULES_2020_R4_5",
+        "act": "Consumer Protection (E-Commerce) Rules, 2020",
+        "section": "Rule 4(4), Rule 4(5) & Rule 5",
+        "summary": "Every e-commerce entity must display a Grievance Officer, acknowledge any consumer complaint with a ticket number within 48 hours, and resolve it within 1 month from the date of receipt.",
+        "plain_hindi": "Har online shopping app/website ke Grievance Officer ko 48 ghante mein complaint number dena aur 30 din mein samadhan karna kanoonan laazmi hai."
+      },
+      {
+        "id": "DARK_PATTERNS_2023",
+        "act": "CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023",
+        "section": "Section 4 & Annexure I (Specified Dark Patterns)",
+        "summary": "Prohibits 'Basket Sneaking', 'Forced Action', 'Subscription Traps', and hidden 'Drip Pricing' charges added at checkout.",
+        "plain_hindi": "Checkout par chhupke se extra charge jodna ya subscription cancel na karne dena CCPA Dark Patterns Guidelines 2023 ke tahat illegal hai."
+      }
+    ],
+    "citation_firewall_audit": [
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 2(47)(vii)",
+        "resolved_citation": "Section 2(47)(vii)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 2(11)",
+        "resolved_citation": "Section 2(11)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 35",
+        "resolved_citation": "Section 35",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 2(11)",
+        "resolved_citation": "Section 2(11)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 2(47)(vii)",
+        "resolved_citation": "Section 2(47)(vii)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      }
+    ],
+    "case_validity_status": "ACTIONABLE_CLAIM",
+    "validity_explanation": "Valid, actionable legal claim under Indian statute.",
+    "amount_specified": true,
+    "strategy_profile_applied": "grounded-statute-engine-v1 (Balanced Legal Strategy)"
+  },
+  "notice_and_clause_trap_decoder": {
+    "has_verifiable_court_cnr_number": false,
+    "is_real_court_summons": false,
+    "summary_assessment": "Contains unenforceable intimidation bluffs / void clauses under Indian law.",
+    "decoded_flags": [
+      {
+        "clause_or_threat_type": "'No Refund / No Return' Blanket Disclaimer on Defective Goods",
+        "verdict": "ILLEGAL_BLUFF_OR_VOID",
+        "statutory_reality": "Under Section 2(47)(vii) of the Consumer Protection Act, 2019, refusing to take back defective goods or refund consideration is an actionable Unfair Trade Practice—a unilateral 'No Refund' sticker or T&C cannot override statutory consumer law.",
+        "recommended_counter_move": "Serve a Rule 4(4) E-Commerce Rules notice to the Grievance Officer and file on e-Daakhil (₹0 fee up to ₹5 Lakh)."
+      }
+    ]
+  },
+  "generated_action_kit": {
+    "whatsapp_escalation_template": "WITHOUT PREJUDICE\n\nDear Opposite Party / Respondent,\n\nThis is a final written reminder regarding the pending sum of ₹62,000 (E-Commerce Refund Refusal, Defective Product, Service Deficiency & Dark Patterns). All my obligations stand completed, and holding back ₹62,000 is directly contrary to Consumer Protection Act, 2019 (Section 2(9), Section 2(11) & Section 2(47)(vii)).\n\nPlease process the full transfer of ₹62,000 within 48 hours and share the UTR reference, failing which I will be constrained to serve a formal Legal Notice and initiate recovery proceedings before the https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim) along with statutory interest and costs.\n\nRegards,\nAarav Verma (Test Claimant)",
+    "formal_legal_notice_md": "# REGISTERED A.D. / EMAIL — LEGAL DEMAND NOTICE\n**WITHOUT PREJUDICE**  \n**Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n\n**Date:** 11 November 2026  \n**From:** Aarav Verma (Test Claimant), residing at Flat 402, Indiranagar, Bengaluru - 560038  \n**To:** Opposite Party / Respondent, having address at Registered Address of Opposite Party  \n\n**SUBJECT: FINAL PRE-LITIGATION LEGAL NOTICE FOR RECOVERY OF ₹62,000 AND STATUTORY COMPLIANCE (E-COMMERCE REFUND REFUSAL, DEFECTIVE PRODUCT, SERVICE DEFICIENCY & DARK PATTERNS)**\n\nSir / Madam,\n\nUnder instructions from and on behalf of my self-represented claim, I hereby serve upon you the following categorical Legal Demand Notice:\n\n### 1. CHRONOLOGICAL STATEMENT OF FACTS\n1. Paid ₹62,000 for product/service via digital invoice. (*Establishes Consumer status under Section 2(7) of the Consumer Protection Act, 2019.*)\n2. Received defective/wrong item or deficient service; raised return/refund request. (*Triggers E-Commerce Rules 2020 Rule 4 (48-hour acknowledgment & 30-day resolution mandate).*)\n3. Platform/seller closed ticket or refused refund despite proof.\n\n### 2. APPLICABLE STATUTORY PROVISIONS (VERIFIED INDIAN LAW)\nYour continued failure and refusal to discharge the lawful liability of **₹62,000** is in direct breach of the following statutory provisions:\n- **Consumer Protection Act, 2019 (Section 2(9), Section 2(11) & Section 2(47)(vii)):** Defines 'Deficiency' in service and explicitly classifies refusing to take back defective goods or failing to refund the consideration paid within the stipulated period as an actionable 'Unfair Trade Practice'.\n- **Consumer Protection Act, 2019 (Section 35 & Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020):** Consumers can file complaints electronically via e-Daakhil in the District Commission where they reside or work for gain, with ZERO court fee for claims up to ₹5,00,000.\n- **Consumer Protection (E-Commerce) Rules, 2020 (Rule 4(4), Rule 4(5) & Rule 5):** Every e-commerce entity must display a Grievance Officer, acknowledge any consumer complaint with a ticket number within 48 hours, and resolve it within 1 month from the date of receipt.\n- **CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023 (Section 4 & Annexure I (Specified Dark Patterns)):** Prohibits 'Basket Sneaking', 'Forced Action', 'Subscription Traps', and hidden 'Drip Pricing' charges added at checkout.\n\n### 3. FINAL DEMAND & CONSEQUENCE OF NON-COMPLIANCE\nI hereby call upon you to:\n1. Remit the principal sum of **₹62,000** (Rupees 62,000 only) along with accrued interest @ 18% per annum immediately via NEFT/IMPS/UPI; and\n2. Issue written confirmation of compliance within **7 (seven) days** from the receipt of this Notice.\n\nTake notice that should you fail to comply within the stipulated **7 (seven) days**, I shall immediately file a formal recovery petition before **https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim)** entirely at your risk as to costs, statutory interest, and damages.\n\nA copy of this Notice is retained in my records for production before the competent Court/Authority as Annexures.\n\nYours faithfully,\n\n**Aarav Verma (Test Claimant)**  \n*(Claimant)*\n",
+    "portal_complaint_synopsis_md": "# OFFICIAL PORTAL FILING PACKET (https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim))\n\n- **Portal to Open:** https://consumerhelpline.gov.in (NCH 1915) & https://edaakhil.nic.in (e-Daakhil — ₹0 fee up to ₹5 Lakh claim)\n- **Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n- **Limitation Status:** WITHIN TIME (2 Year(s) — Section 69(1), Consumer Protection Act, 2019 (2 years from the date on which the cause of action arose).)\n- **Claim Amount:** ₹62,000\n- **Evidence Readiness Score:** 82/100\n\n### Synopsis of Case (Copy-Paste into Portal 'Brief Facts' Box)\nRefusing to refund ₹62,000 for a defective product or undelivered service is an explicit 'Unfair Trade Practice' under Section 2(47)(vii) and 'Deficiency' under Section 2(11) of the Consumer Protection Act, 2019. Under Section 35, you can file online via e-Daakhil from home with ₹0 court fee (since your claim is under ₹5 Lakh).\n\n### List of Annexures to Upload (PDF)\n- **Annexure A1:** Tax Invoice / Order Confirmation & Payment Proof (*Status: PRESENT*)\n- **Annexure A2:** Unboxing Video / Photos of Defect (*Status: RECOMMENDED*)\n- **Annexure A3:** Customer Support Ticket IDs & Chat Screenshots (*Status: PRESENT*)",
+    "pdf_path": "D:\\projects\\KukuFM\\project2_ai_lawyer\\raw_outputs\\generated_legal_notices_pdf\\TC03_HINDI_ECOMMERCE_DEFECTIVE_REFUND_Legal_Notice.pdf"
+  },
+  "sparring_roleplay_evaluation": {
+    "persona_name": "Customer Escalation Desk (E-Commerce Platform)",
+    "opponent_reply": "Okay, let me escalate this to our Grievance Officer team since you cited Rule 4(4) of the E-Commerce Rules 2020 and e-Daakhil...",
+    "coach_score_100": 96,
+    "coach_critique": "Great job! Always demand the Grievance Officer Ticket Number mandated within 48 hours under Rule 4(4) of the Consumer Protection (E-Commerce) Rules, 2020.",
+    "mistake_detected": "None — Clean, assertive legal positioning.",
+    "suggested_stronger_comeback": "Please provide the mandatory Grievance Officer ticket number under Rule 4(4) of the E-Commerce Rules, 2020. Refusing a refund for defective goods is an Unfair Trade Practice under Section 2(47)(vii) of the Consumer Protection Act, 2019."
+  },
+  "adversarial_firewall_proof": null
+}

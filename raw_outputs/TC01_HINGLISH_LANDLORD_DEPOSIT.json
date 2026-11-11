@@ -1,0 +1,186 @@
+{
+  "test_case_id": "TC01_HINGLISH_LANDLORD_DEPOSIT",
+  "test_case_title": "Hinglish: Bengaluru Landlord Withholding ₹1,50,000 Security Deposit After Key Handover",
+  "raw_user_input": "Mera landlord 3 mahine se mera 1.5 lakh security deposit wapas nahi kar raha. Maine 15th March ko flat khali karke chabi society guard aur owner ko de di thi. Mere paas rent agreement aur UPI transfer receipt hai. Ab WhatsApp par bolta hai ki 65,000 rupaye painting aur deep cleaning mein kat gaya aur bina bill ke paise kaat raha hai.",
+  "structured_case_analysis": {
+    "case_id": "TC01_HINGLISH_LANDLORD_DEPOSIT",
+    "detected_language": "Hinglish (Conversational Hindi + English)",
+    "domain_key": "TENANCY_DEPOSIT",
+    "domain_title": "Rental Security Deposit Recovery & Unlawful Landlord Deductions",
+    "is_red_line_escalation": false,
+    "red_line_reason": "",
+    "red_line_emergency_contacts": [
+      "NALSA Free Legal Aid Helpline: 15100 (24x7 Toll-Free across India)",
+      "District Legal Services Authority (DLSA) — Every District Court Complex",
+      "Emergency Police / Women Safety: 112 / 181 | Cybercrime Golden-Hour Freeze: 1930"
+    ],
+    "claim_amount_inr": 150000,
+    "timeline": [
+      {
+        "step_order": 1,
+        "date_or_marker": "Lease Commencement",
+        "event_summary": "Paid refundable security deposit of ₹150,000 to landlord.",
+        "legal_significance": "Establishes liquidated refundable debt under Indian Contract Act Sec 73 & CPC Order XXXVII."
+      },
+      {
+        "step_order": 2,
+        "date_or_marker": "Notice & Vacant Handover",
+        "event_summary": "Vacated premises and handed over keys / vacant possession to landlord.",
+        "legal_significance": "Triggers mandatory refund obligation under Transfer of Property Act Sec 108(q) & Model Tenancy Act Sec 11."
+      },
+      {
+        "step_order": 3,
+        "date_or_marker": "Unjustified Withholding",
+        "event_summary": "Landlord refusing refund or claiming arbitrary painting/wear-and-tear deductions without bills.",
+        "legal_significance": "Arbitrary deductions without actual proven damage violate Indian Contract Act Sec 73-74."
+      }
+    ],
+    "evidence_score_100": 98,
+    "evidence_checklist": [
+      {
+        "item_name": "Written Rent / Lease Agreement",
+        "status": "PRESENT",
+        "weight_points": 30,
+        "how_to_obtain_or_create": "Check email/broker WhatsApp for PDF or signed copy; even an expired agreement + bank rent trail proves tenancy."
+      },
+      {
+        "item_name": "Bank / UPI Deposit Transfer Proof",
+        "status": "PRESENT",
+        "weight_points": 30,
+        "how_to_obtain_or_create": "Download bank statement showing UTR/UPI transaction ID of the original deposit transfer."
+      },
+      {
+        "item_name": "Key Handover & Vacant Possession Proof",
+        "status": "PRESENT",
+        "weight_points": 20,
+        "how_to_obtain_or_create": "Society gate move-out pass, electricity final bill, or WhatsApp message confirming date keys were handed over."
+      },
+      {
+        "item_name": "Written Refusal / Deduction Admission on WhatsApp",
+        "status": "PRESENT",
+        "weight_points": 20,
+        "how_to_obtain_or_create": "Export WhatsApp chat showing landlord admitting they hold the deposit or making unbilled deduction claims."
+      }
+    ],
+    "pre_notice_evidence_trap_tip": "Before sending a formal Legal Notice, send this polite 'Evidence Trap' WhatsApp message today: 'Hi [Landlord Name], since I handed over the flat keys on [Date] in clean condition, please confirm by when my ₹150,000 security deposit will be transferred to my UPI/account.' If they reply with excuses instead of denying the amount or handover date, their reply becomes an ironclad written admission for an Order XXXVII Summary Suit!",
+    "plain_language_standing_en": "You have a strong civil recovery claim for ₹150,000. Under Section 108(q) of the Transfer of Property Act, 1882 and Sections 73 & 74 of the Indian Contract Act, 1872, a landlord cannot retain your security deposit after vacant possession is handed over, nor deduct arbitrary lump sums for routine wear-and-tear without itemized third-party repair invoices.",
+    "plain_language_standing_hi": "Aapka ₹150,000 ka daava kanoonan mazboot hai. Transfer of Property Act Section 108(q) aur Indian Contract Act Section 73-74 ke tahat, makan khali karne aur chabi dene ke baad maalik bina asli repair bill dikhaye manmaane tarike se security deposit nahi kaat sakta.",
+    "limitation_analysis": {
+      "statutory_limit_years": "3 Year(s)",
+      "legal_basis": "Article 24 / Article 113, Schedule to the Limitation Act, 1963 (3 years from the date the deposit became refundable upon vacating).",
+      "official_portal": "nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services"
+    },
+    "roi_comparison": [
+      {
+        "option": "Step 1: Self-Sent Formal Legal Demand Notice + Evidence Trap",
+        "estimated_cost_inr": "₹0 (Free via NyayaSahayak PDF) or ₹150 Registered Post AD",
+        "typical_timeline": "7 to 15 Days",
+        "success_probability": "55%–65% (Most landlords/employers/brands settle when hit with exact statutory citations)",
+        "recommended": "YES — Always start here"
+      },
+      {
+        "option": "Step 2: Government Online Portal (Rent Authority)",
+        "estimated_cost_inr": "₹0 Court/Portal Fee",
+        "typical_timeline": "30 to 90 Days",
+        "success_probability": "75%–85% (Backed by statutory conciliation/commission orders)",
+        "recommended": "YES — Escalate here if notice is ignored"
+      },
+      {
+        "option": "Step 3: Private Advocate & Contested Civil Court Litigation",
+        "estimated_cost_inr": "₹15,000 – ₹45,000+ (Lawyer retainers + court fees)",
+        "typical_timeline": "6 to 18 Months",
+        "success_probability": "High, but economically viable only if claim > ₹75,000 or in Red-Line criminal matters",
+        "recommended": "RECOMMENDED (High value / Red-Line)"
+      }
+    ],
+    "verified_statutes": [
+      {
+        "id": "TPA_1882_S108Q",
+        "act": "Transfer of Property Act, 1882",
+        "section": "Section 108(q)",
+        "summary": "Upon determination of the lease and handover of vacant possession by the lessee, the contractual relationship terminates and the lessor has no legal right to retain refundable security money without proven arrears.",
+        "plain_hindi": "Kirayedaar dwara makan khali karke chabi सौंपने (handover) ke baad maalik bina kisi pakke saboot ke security deposit rok nahi sakta."
+      },
+      {
+        "id": "TPA_1882_S106",
+        "act": "Transfer of Property Act, 1882",
+        "section": "Section 106",
+        "summary": "In the absence of a written contract to the contrary, a residential lease from month to month is terminable by 15 days' written notice.",
+        "plain_hindi": "Agar agreement mein alag se notice period nahi likha hai, toh 15 din ka likhit notice kafi hota hai."
+      },
+      {
+        "id": "MTA_2021_S11",
+        "act": "Model Tenancy Act, 2021 (and State Tenancy Acts)",
+        "section": "Section 11(1) & Section 11(2)",
+        "summary": "Security deposit for residential premises is capped at two months' rent and must be refunded to the tenant on the date of taking over vacant possession, after making due deduction only for verifiable arrears.",
+        "plain_hindi": "Model Tenancy Act ke tahat security deposit chabi wapas karte waqt hi lautana zaroori hai (sirf asli bakaya kaat kar)."
+      },
+      {
+        "id": "ICA_1872_S73_74",
+        "act": "Indian Contract Act, 1872",
+        "section": "Section 73 & Section 74",
+        "summary": "A party claiming breach or damage can only recover reasonable compensation for actual, proven loss—not arbitrary lump-sum deductions for routine 'normal wear and tear' or unbilled repainting.",
+        "plain_hindi": "Normal wear-and-tear ya bina pakke bill ke manmaane 'damage charges' kaatna Indian Contract Act Sec 73-74 ke khilaf hai."
+      },
+      {
+        "id": "CPC_1908_O37",
+        "act": "Code of Civil Procedure, 1908 (CPC)",
+        "section": "Order XXXVII (Summary Suits) & Section 34",
+        "summary": "Enables fast-track summary recovery of a liquidated debt (such as a written security deposit receipt) where the defendant landlord cannot even defend without special leave of the Court, plus pendente lite and future interest under Section 34.",
+        "plain_hindi": "Written agreement aur bank transfer receipt hone par CPC Order 37 mein fast-track Summary Suit dakhil ho sakta hai, jisme 12-18% byaaj (interest) bhi maanga ja sakta hai."
+      }
+    ],
+    "citation_firewall_audit": [
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 108(q)",
+        "resolved_citation": "Section 108(q)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 108(q)",
+        "resolved_citation": "Section 108(q)",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      },
+      {
+        "event_type": "VERIFIED_STATUTE",
+        "raw_citation": "Section 73",
+        "resolved_citation": "Section 73",
+        "action_taken": "Verified against `indian_statutes_kb.json` whitelist."
+      }
+    ],
+    "case_validity_status": "ACTIONABLE_CLAIM",
+    "validity_explanation": "Valid, actionable legal claim under Indian statute.",
+    "amount_specified": true,
+    "strategy_profile_applied": "grounded-statute-engine-v1 (Balanced Legal Strategy)"
+  },
+  "notice_and_clause_trap_decoder": {
+    "has_verifiable_court_cnr_number": false,
+    "is_real_court_summons": false,
+    "summary_assessment": "Contains unenforceable intimidation bluffs / void clauses under Indian law.",
+    "decoded_flags": [
+      {
+        "clause_or_threat_type": "Unbilled Landlord Security Deposit Forfeiture / Painting Deduction",
+        "verdict": "ILLEGAL_BLUFF_OR_VOID",
+        "statutory_reality": "Under Section 108(q) of the Transfer of Property Act, 1882, Model Tenancy Act Section 11, and Sections 73-74 of the Indian Contract Act, normal wear-and-tear is the landlord's responsibility and lump-sum deductions without actual third-party repair bills are unlawful.",
+        "recommended_counter_move": "Demand GST-compliant repair invoices and comparative move-in/move-out photos within 7 days, failing which serve an Order XXXVII CPC Summary Suit demand notice."
+      }
+    ]
+  },
+  "generated_action_kit": {
+    "whatsapp_escalation_template": "WITHOUT PREJUDICE\n\nDear Opposite Party / Respondent,\n\nThis is a final written reminder regarding the pending sum of ₹150,000 (Rental Security Deposit Recovery & Unlawful Landlord Deductions). All my obligations stand completed, and holding back ₹150,000 is directly contrary to Transfer of Property Act, 1882 (Section 108(q)).\n\nPlease process the full transfer of ₹150,000 within 48 hours and share the UTR reference, failing which I will be constrained to serve a formal Legal Notice and initiate recovery proceedings before the nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services along with statutory interest and costs.\n\nRegards,\nAarav Verma (Test Claimant)",
+    "formal_legal_notice_md": "# REGISTERED A.D. / EMAIL — LEGAL DEMAND NOTICE\n**WITHOUT PREJUDICE**  \n**Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n\n**Date:** 11 November 2026  \n**From:** Aarav Verma (Test Claimant), residing at Flat 402, Indiranagar, Bengaluru - 560038  \n**To:** Opposite Party / Respondent, having address at Registered Address of Opposite Party  \n\n**SUBJECT: FINAL PRE-LITIGATION LEGAL NOTICE FOR RECOVERY OF ₹150,000 AND STATUTORY COMPLIANCE (RENTAL SECURITY DEPOSIT RECOVERY & UNLAWFUL LANDLORD DEDUCTIONS)**\n\nSir / Madam,\n\nUnder instructions from and on behalf of my self-represented claim, I hereby serve upon you the following categorical Legal Demand Notice:\n\n### 1. CHRONOLOGICAL STATEMENT OF FACTS\n1. Paid refundable security deposit of ₹150,000 to landlord. (*Establishes liquidated refundable debt under Indian Contract Act Sec 73 & CPC Order XXXVII.*)\n2. Vacated premises and handed over keys / vacant possession to landlord. (*Triggers mandatory refund obligation under Transfer of Property Act Sec 108(q) & Model Tenancy Act Sec 11.*)\n3. Landlord refusing refund or claiming arbitrary painting/wear-and-tear deductions without bills.\n\n### 2. APPLICABLE STATUTORY PROVISIONS (VERIFIED INDIAN LAW)\nYour continued failure and refusal to discharge the lawful liability of **₹150,000** is in direct breach of the following statutory provisions:\n- **Transfer of Property Act, 1882 (Section 108(q)):** Upon determination of the lease and handover of vacant possession by the lessee, the contractual relationship terminates and the lessor has no legal right to retain refundable security money without proven arrears.\n- **Transfer of Property Act, 1882 (Section 106):** In the absence of a written contract to the contrary, a residential lease from month to month is terminable by 15 days' written notice.\n- **Model Tenancy Act, 2021 (and State Tenancy Acts) (Section 11(1) & Section 11(2)):** Security deposit for residential premises is capped at two months' rent and must be refunded to the tenant on the date of taking over vacant possession, after making due deduction only for verifiable arrears.\n- **Indian Contract Act, 1872 (Section 73 & Section 74):** A party claiming breach or damage can only recover reasonable compensation for actual, proven loss—not arbitrary lump-sum deductions for routine 'normal wear and tear' or unbilled repainting.\n- **Code of Civil Procedure, 1908 (CPC) (Order XXXVII (Summary Suits) & Section 34):** Enables fast-track summary recovery of a liquidated debt (such as a written security deposit receipt) where the defendant landlord cannot even defend without special leave of the Court, plus pendente lite and future interest under Section 34.\n\n### 3. FINAL DEMAND & CONSEQUENCE OF NON-COMPLIANCE\nI hereby call upon you to:\n1. Remit the principal sum of **₹150,000** (Rupees 150,000 only) along with accrued interest @ 18% per annum immediately via NEFT/IMPS/UPI; and\n2. Issue written confirmation of compliance within **7 (seven) days** from the receipt of this Notice.\n\nTake notice that should you fail to comply within the stipulated **7 (seven) days**, I shall immediately file a formal recovery petition before **nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services** entirely at your risk as to costs, statutory interest, and damages.\n\nA copy of this Notice is retained in my records for production before the competent Court/Authority as Annexures.\n\nYours faithfully,\n\n**Aarav Verma (Test Claimant)**  \n*(Claimant)*\n",
+    "portal_complaint_synopsis_md": "# OFFICIAL PORTAL FILING PACKET (nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services)\n\n- **Portal to Open:** nalsa.gov.in (Pre-Institution Mediation / Lok Adalat) & State e-Courts Services\n- **Strategy Posture:** grounded-statute-engine-v1 (Balanced Legal Strategy)\n- **Limitation Status:** WITHIN TIME (3 Year(s) — Article 24 / Article 113, Schedule to the Limitation Act, 1963 (3 years from the date the deposit became refundable upon vacating).)\n- **Claim Amount:** ₹150,000\n- **Evidence Readiness Score:** 98/100\n\n### Synopsis of Case (Copy-Paste into Portal 'Brief Facts' Box)\nYou have a strong civil recovery claim for ₹150,000. Under Section 108(q) of the Transfer of Property Act, 1882 and Sections 73 & 74 of the Indian Contract Act, 1872, a landlord cannot retain your security deposit after vacant possession is handed over, nor deduct arbitrary lump sums for routine wear-and-tear without itemized third-party repair invoices.\n\n### List of Annexures to Upload (PDF)\n- **Annexure A1:** Written Rent / Lease Agreement (*Status: PRESENT*)\n- **Annexure A2:** Bank / UPI Deposit Transfer Proof (*Status: PRESENT*)\n- **Annexure A3:** Key Handover & Vacant Possession Proof (*Status: PRESENT*)\n- **Annexure A4:** Written Refusal / Deduction Admission on WhatsApp (*Status: PRESENT*)",
+    "pdf_path": "D:\\projects\\KukuFM\\project2_ai_lawyer\\raw_outputs\\generated_legal_notices_pdf\\TC01_HINGLISH_LANDLORD_DEPOSIT_Legal_Notice.pdf"
+  },
+  "sparring_roleplay_evaluation": {
+    "persona_name": "Mr. Sharma (Stubborn Bengaluru/Mumbai Landlord)",
+    "opponent_reply": "Acha? Tum mujhe Transfer of Property Act sikhoge? Flat ki deewarein gandi thi, maine apne local painter ko cash diya tha, uska GST bill kahan se laaun? (Wait—if you press me for move-out photos and Order 37 interest, I know I'll lose in court...)",
+    "coach_score_100": 96,
+    "coach_critique": "Pin the landlord on TWO facts: (1) You handed over vacant possession on a specific date without any joint inspection damage note, and (2) Under Indian Contract Act Sec 73-74, cash claims without GST invoices cannot be deducted from a security deposit.",
+    "mistake_detected": "None — Clean, assertive legal positioning.",
+    "suggested_stronger_comeback": "WITHOUT PREJUDICE: Mr. Sharma, routine repainting is normal wear-and-tear under Model Tenancy Act Sec 11 and Indian Contract Act Sec 73. Unless you share GST repair bills and refund my principal via UPI by 5 PM tomorrow, my Order XXXVII Summary Suit notice goes out with 18% interest."
+  },
+  "adversarial_firewall_proof": null
+}
